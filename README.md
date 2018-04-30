@@ -1,5 +1,5 @@
 
-#Elk Stack a pipeline de dados mais precisos em web analytics . 🐧
+# Elk Stack a pipeline de dados mais precisos em web analytics . 🐧
 
 
 #### Procedimento Instalação ####
@@ -8,30 +8,30 @@
 
 - 2 Adicionar repositorio do ELK
 
-# wget -qO - https://artifacts.elastic.co/GPG-KEY-elasticsearch | apt-key add -
+####  wget -qO - https://artifacts.elastic.co/GPG-KEY-elasticsearch | apt-key add - 
 
-## apt-get install apt-transport-https
+#### apt-get install apt-transport-https
 
-## echo "deb https://artifacts.elastic.co/packages/5.x/apt stable main" |  tee -a /etc/apt/sources.list.d/elastic-5.x.list
+#### echo "deb https://artifacts.elastic.co/packages/5.x/apt stable main" |  tee -a /etc/apt/sources.list.d/elastic-5.x.list
 
-## apt-get update &&  apt-get install elasticsearch logstash kibana
+#### apt-get update &&  apt-get install elasticsearch logstash kibana
 
-# Adicionar configuração presente no projeto de acordo com sua necessidade 
+#### Adicionar configuração presente no projeto de acordo com sua necessidade 
 
-## Testa elastisearch
+#### Testa elastisearch
 
-# - Verifica status
+### - Verifica status
 
 curl 'localhost:9200'
 
 
-# - Verifica  indices 
+##### - Verifica  indices 
 
 curl 'localhost:9200/_cat/indices?v'
 
 
 
-#import dashboards 
+#### import dashboards 
 
 wget https://artifacts.elastic.co/downloads/beats/beats-dashboards/beats-dashboards-5.6.9.zip
 
