@@ -39,3 +39,13 @@ wget https://artifacts.elastic.co/downloads/beats/beats-dashboards/beats-dashboa
 ./scripts/import_dashboards -file ./beats-dashboards-5.6.9.zip  -es http://localhost:9200
 
 
+#### Referencias .
+
+
+- https://www.itzgeek.com/how-tos/linux/debian/how-to-setup-elk-stack-on-debian-9-debian-8.html
+- https://jee-appy.blogspot.com.br/2017/03/setup-elk-5.html
+
+
+
+
+
